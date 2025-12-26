@@ -1,1 +1,1 @@
-# Checkpoint-Gomycode Animal.html
+# Checkpoint-Gomycode
