@@ -1,0 +1,46 @@
+
+$danger-color: red;
+$secondary-color:green;
+$primary-color: black;
+$font-family: Times New roman, serif;
+$border-radius: 10px;
+$padding: 25px;
+$navbar: (
+    home: "/home",
+    about: "/about",
+    contact: "/contact"
+);
+
+
+header { color: black;
+font-family: 'Times New Roman', Times, serif;}
+
+h2 { color: green;
+font-family: 'Times New Roman', Times, serif;}
+
+h1 { color: black;} 
+
+p {color: red;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.background {
+    background-color: $secondary-color;
+}
+.btn {
+    display:inline-block;
+background: #d4b61d;
+color: white;
+padding: $padding;
+border-radius: $border-radius;
+}
+.btn:hover {
+    background: #555;
+    color: black
+}
+
+mixin flex-center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

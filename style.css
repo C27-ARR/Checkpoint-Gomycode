@@ -1,0 +1,54 @@
+header {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-left: 100px;
+  color: black;
+}
+
+.background { 
+  background-color: green;
+
+}
+
+.btn {
+  display: inline-block;
+  background: #d4b61d;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #555;
+  color: black;
+}
+
+.layout.container { margin: 0, auto 
+}
+
+mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar { 
+  background-color: goldenrod
+}
+
+body { background-color: aliceblue;}
